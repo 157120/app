@@ -5,4 +5,4 @@ Route::get('/', function () {
 });
 
 Route::get('/category/create', array ('as' => 'category.create', 'uses' => 'CategoryController@staticCreate'));
-Route::get('/category/id?', array ('as' => 'category.get', 'uses' => 'CategoryController@get'));
+Route::get('/category/{id?}', array ('as' => 'category.get', 'uses' => 'CategoryController@get'));
