@@ -39,4 +39,12 @@ class CategoryController extends Controller {
      
 }
 
+public function create (){
+    $data = request()->all();
+    $category = new Category();
+    $category ->name = array_get ($data, "name");
+    $category->save();
+    return redirect(route("category.get"));
+}
+
 }
