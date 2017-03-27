@@ -1,3 +1,5 @@
 <nav class = 'main-menu'>
-    <a href ="{{route('category.get')}}"> Categories </a>
+    <ul>
+        <a href ="{{route('category.get')}}">  <li>Categories</li></a>
+    </ul>
 </nav>

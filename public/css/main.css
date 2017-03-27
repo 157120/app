@@ -16,7 +16,6 @@ body{
 }
 
 .main-menu{
-
     width: 55vw;
     background: #ffff99;  
     font-size: 16pt; 
@@ -25,4 +24,19 @@ body{
     padding: 15px;
     font-weight: bold;
     opacity: .9;
+}
+.main-menu ul {
+   list-style: none;
+}
+.main-menu ul li{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    background: #269abc;
+    padding: 15px 0;
+}
+
+.main-menu ul li:hover{
+    opacity: .7;
+    
 }
