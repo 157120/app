@@ -3,12 +3,12 @@ body{
     background-size: cover;
     text-align: center;
     padding: 20px;
-    margin: 0;
+    
 }
 
 .main-section{
-    margin: 0 auto;
-    width: 55vw;
+   
+   
     background: #ffffcc;  
     font-family: fantasy;
     text-align: initial;
@@ -16,11 +16,11 @@ body{
 }
 
 .main-menu{
-    width: 55vw;
+    
     background: #ffff99;  
     font-size: 16pt; 
     font-family: fantasy;
-    margin: 30px auto;
+    
     padding: 15px;
     font-weight: bold;
     opacity: .9;
