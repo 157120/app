@@ -14,7 +14,7 @@ class ArticleController extends Controller
     $id = request ()->route("id");
         $category = Category::find($id);
         //$articles = $category->articles; 
-         return view("category", ['category'=>$category]);
+         return view("article", ['category'=>$category]);
 }
 
 public function create (){
@@ -25,7 +25,7 @@ public function create (){
     $article ->content = array_get ($data, "content");
     $article ->category_id = $category_id;
     $article->save();
-    return redirect(route("category.get", ["id"=>$category_id]));
+    return redirect(route("article.get", ["id"=>$category_id]));
     
 }
 
