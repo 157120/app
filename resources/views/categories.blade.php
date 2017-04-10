@@ -11,14 +11,15 @@
 
                     <div class="form-group">
                         <label>Category name</label>
-                        <input name="name" class="form-control" tyoe="text" placeholder="Type category name">
+                        <input id="catName" name="name" class="form-control" type="text" placeholder="Type category name">
                     </div>
 
                     <div class="btn-group" role="group" aria-label="...">
-                        <button type="submit" class="btn btn-default">Create</button>
+                        <button id="add" type="submit" class="btn btn-default" disabled>Create</button>
                         <button type="reset" class="btn btn-default">Cancel</button>
                     </div>
 
                 </form>
                 
+
 @stop

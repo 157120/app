@@ -30,7 +30,7 @@
 
 
     <div class="btn-group" role="group" aria-label="...">
-        <button type="submit" class="btn btn-default">Create</button>
+        <button id="add" type="submit" class="btn btn-default" disabled>Create</button>
         <button type="reset" class="btn btn-default">Cancel</button>
     </div>
     

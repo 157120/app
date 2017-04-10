@@ -16,3 +16,45 @@ var bg=0;
              bg=0;
          }
      });
+     
+  //blokowanie dodawania kategorii   
+     $('#catName').on('keyup', function(){
+         var name = $('#catName').val();
+         console.log(name)
+         if 
+         (name.length === 0){
+             $('button[type=submit]').attr('disabled', 'true');
+         }
+         else{
+             $('button[type=submit]').removeAttr('disabled');
+             //$('#add').removeAttr('disabled', 'true');
+         }
+ })
+ 
+ //blokowanie dodawania artykułów
+ 
+ $('#title_id').on('keyup', function(){
+         var name = $('#title_id').val();
+         console.log(name)
+         if 
+         (name.length === 0){
+             $('button[type=submit]').attr('disabled', 'true');
+         }
+         else{
+             $('button[type=submit]').removeAttr('disabled');
+             //$('#add').removeAttr('disabled', 'true');
+         }
+ })
+ 
+  $('#content_id').on('keyup', function(){
+         var name = $('#content_id').val();
+         console.log(name)
+         if 
+         (name.length === 0){
+             $('button[type=submit]').attr('disabled', 'true');
+         }
+         else if (name.length > 0 && title_id === 0){
+             $('button[type=submit]').removeAttr('disabled');
+             //$('#add').removeAttr('disabled', 'true');
+         }
+ })
