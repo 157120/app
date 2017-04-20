@@ -1,8 +1,20 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main');
 });
+
+
+
+Route::get('login', function()
+{
+		return View::make('login');
+});
+
+Route::get('home', function()
+{
+		return View::make('home');
+}); 
 
 Route::get('/category/create', array('as' => 'category.create', 'uses' => 'CategoryController@staticCreate'));
 Route::get('/category/{id?}', array('as' => 'category.get', 'uses' => 'CategoryController@get'));

@@ -16,8 +16,8 @@
 
 
     <div class="form-group" id="title_input">
-        <label for="title_id">Title</label>
-        <input id="title_id" name="title" class="form-control" type="text" placeholder="Type article name">
+        <label for="title_id">Task</label>
+        <input id="title_id" name="title" class="form-control" type="text" placeholder="Type task name">
     </div>  
 
 
@@ -25,6 +25,11 @@
         <label for="content_id">Content</label>
         <textarea id="content_id" name="content" class="form-control" rows="3" placeholder="Type article"></textarea>
     </div>
+    
+    <div class="form-group">
+                        <label>PIN code</label>
+                        <input id="PINcode" name="name" class="form-control" type="text" placeholder="Provide a PIN code, in order to input data">
+                    </div>
 
     <input name="category_id" class="form-control" type="hidden" value="{{$category->id}}">
 

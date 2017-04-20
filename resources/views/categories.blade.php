@@ -9,15 +9,16 @@
 
                 <form method="POST">
 
-                    <div class="form-group">
-                        <label>Category name</label>
-                        <input id="catName" name="name" class="form-control" type="text" placeholder="Type category name">
+<!--                    <div class="form-group">
+                        <label>Subject name</label>
+                        <input id="catName" name="name" class="form-control" type="text" placeholder="Type subject name">
                     </div>
-
+                    
+                    
                     <div class="btn-group" role="group" aria-label="...">
-                        <button id="add" type="submit" class="btn btn-default" disabled>Create</button>
+                        <button id="add" type="submit" class="btn btn-default" >Create</button>
                         <button type="reset" class="btn btn-default">Cancel</button>
-                    </div>
+                    </div>-->
 
                 </form>
                 
