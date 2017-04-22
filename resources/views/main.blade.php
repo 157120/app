@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MiStery - London School of Fotography</title>
-         <link rel="shortcut icon" href="images/favicon/apple-touch-icon.png">
+        
         <style type="text/css">
 
             /*BACGROUND&SCROLL*/

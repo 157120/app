@@ -1,37 +1,37 @@
 body{
-    background: url('../summer.jpg') no-repeat fixed;
+    background: url('../bg2.jpg') no-repeat fixed;
     background-size: cover;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     font-family: serif;
-    
+
 }
 
 .main-section{
-    background: #ffffcc;  
-    font-family: fantasy;
-    text-align: initial;
-    opacity: .9;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5); /*półprzeźroczyste*/
+    filter: alpha(opacity=90); 
+    margin: 15px;
+    padding: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .main-menu{
-    background: #ffff99;  
-    font-size: 16pt; 
-    font-family: fantasy;
-    padding: 15px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5); /*półprzeźroczyste*/
+    filter: alpha(opacity=20); 
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
     font-weight: bold;
-    opacity: .9;
+    font-size: 30px;
 }
 .main-menu ul {
-   list-style: none;
+    list-style: none;
 }
-.main-menu ul li{
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-    background: #269abc;
-    padding: 15px 0;
-}
+
 
 #global1{
     position: absolute;
@@ -40,5 +40,5 @@ body{
 }
 .main-menu ul li:hover{
     opacity: .7;
-    
+
 }
