@@ -20,29 +20,17 @@ var bg=0;
 
 
  //blokowanie dodawania artykułów
- 
+
+
  $('#title_id').on('keyup', function(){
          var name = $('#title_id').val();
-         console.log(name)
-         if 
-         (name.length === 0 && '#PINcode' !== 1234){
-             $('button[type=submit]').attr('disabled', 'true');
-         }
-         else if(name.length > 0 && '#PINcode' === 1234){
-             $('button[type=submit]').removeAttr('disabled');
-            
-         }
- })
- 
-  $('#content_id').on('keyup', function(){
-         var name = $('#content_id').val();
-         console.log(name)
+         console.log(name);
          if 
          (name.length === 0){
              $('button[type=submit]').attr('disabled', 'true');
          }
-         else if (name.length > 0){
+         else if(name.length > 0){
              $('button[type=submit]').removeAttr('disabled');
-             
+            
          }
- })
+ });
