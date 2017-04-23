@@ -31,6 +31,7 @@
             <option value="Lecture">Lecture</option>
             <option value="Task">Task</option>
             <option value="Other">Other</option>
+            option value="Other">Student</option>
         </select></div>
 
     <div class="form-group">
@@ -45,7 +46,7 @@
     <br>
     <br>
     <div class="btn-group" role="group" aria-label="...">
-        <button id="add" type="submit" class="btn btn-default" disabled>Create</button>
+        <button id="add" type="submit" class="btn btn-default">Create</button>
         <button type="reset" class="btn btn-default">Cancel</button>
     </div>
 

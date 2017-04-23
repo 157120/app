@@ -20,17 +20,17 @@ var bg=0;
 
 
  //blokowanie dodawania artykułów
-
-
- $('#title_id').on('keyup', function(){
-         var name = $('#title_id').val();
-         console.log(name);
-         if 
-         (name.length === 0){
-             $('button[type=submit]').attr('disabled', 'true');
-         }
-         else if(name.length > 0){
-             $('button[type=submit]').removeAttr('disabled');
-            
-         }
- });
+//
+//
+// $('#title_id').on('keyup', function(){
+//         var name = $('#title_id').val();
+//         console.log(name);
+//         if 
+//         (name.length === 0){
+//             $('button[type=submit]').attr('disabled', 'true');
+//         }
+//         else if(name.length > 0){
+//             $('button[type=submit]').removeAttr('disabled');
+//            
+//         }
+// });
