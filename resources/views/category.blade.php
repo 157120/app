@@ -31,7 +31,6 @@
             <option value="Lecture">Lecture</option>
             <option value="Task">Task</option>
             <option value="Other">Other</option>
-            option value="Other">Student</option>
         </select></div>
 
     <div class="form-group">

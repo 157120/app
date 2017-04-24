@@ -455,8 +455,8 @@
                                         In order to Log In, please Sign Up first.
                                         <br>
                                         <br>
-                                        <button id="login1" type="button"  value="Log In" name="Submit" class="btn btn-default btn-lg">
-                                            <a href= http://app.isc/login >Log In</a> </button></form>
+                                        <a href= http://app.isc/login><button id="login1" type="button"  value="Log In" name="Submit" class="btn btn-default btn-lg">
+                                                Log In </button></a></form>
             </div>        
         </td>
 <!--/LOGIN FORM--> 
